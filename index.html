@@ -13,11 +13,12 @@
 <body>
     <div class="bg-gray-200 w-full">
         <!--Header-->
-        <div class="Top-header h-16 bg-gray-300 flex items-center">
+        <div class="Top-header h-16 bg-gray-300 flex items-center justify-around">
             <div class="items-center">
                 <img class="w-16 h-16" src="https://failure.vercel.app/logo.png">
             </div>
-            <div class="Search flex mx-20">
+            <!--Search-Bar-->
+            <div class="Search flex ml-10">
                 <div class="Search-icon h-10 w-10 rounded-l-xl bg-blue-500 items-center flex justify-center text-black hover:bg-blue-700">
                     <svg class="w-6 h-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -25,8 +26,9 @@
                 </div>
                 <input class="h-10 w-30 bg-white border border-gray-300 border-opacity-75 rounded-r-xl px-3 text-black placeholder-black hover:bg-gray-200" id="Search" type="text" placeholder="Search . . . ">                  
             </div>
-            <div class="Calendar flex ml-20">
-                <div class="calendar-icon flex font-bold  border border-gray-300 border-opacity-75 rounded-xl  px-5 py-2 mr-20 hover:bg-gray-200">
+            <!--Calendar-->
+            <div class="Calendar flex ml-10">
+                <div class="calendar-icon flex font-bold  border border-gray-300 border-opacity-75 rounded-xl  px-7 py-3 mr-20 hover:bg-gray-200">
                     <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
                       </svg>
@@ -35,8 +37,11 @@
                     </span>                       
                 </div>
             </div>
-            <div class="leads bg-white border border-gray-300 border-opacity-75 rounded-lg flex px-6 py-2 ml-80 font-bold text-lg hover:bg-gray-200">
-                🔥You have 20 new leads
+            <!--Leads-->
+            <div class="leads bg-yellow-200 border border-black border-opacity-75 rounded-lg flex px-7 py-3 ml-80 hover:bg-gray-200">
+                <h2 class="font-bold ">
+                    🔥You have 10 new leads
+                </h2>
             </div>
              <!-- Right Icons -->
             <div class="icons text-gray ml-auto flex items-center justify-around">
@@ -148,11 +153,11 @@
                                 Fourth Unit
                             </h1>
                         </div>
-                        <div class="Fifth Box mt-10 text-gray-500 h-60 w-1/3 bg-white border drop-shadow-xl opacity-75 rounded-lg ml-10">
-                            <h1 class="ml-40 mr-20 font-bold text-2xl">
+                        <div class="Fifth Box mt-10 flex text-gray-500 h-60 w-1/3 bg-white border drop-shadow-xl opacity-75 rounded-lg ml-10">
+                            <h1 class="ml-2 font-bold text-2xl">
                                Fifth Unit
                             </h1>
-                            <div class="Pro-button mt-5 ml-40 p-1 mt-20">
+                            <div class="Pro-button flex-1 mt-5 ml-10 p-1 mt-20">
                                 <div class="button place-content-center bg-blue-500 w-36 h-10 border rounded-lg drop-shadow-3xl hover:bg-blue-700 justify-center items-center  ">
                                     <h1 class="font-bold text-white p-1 ml-2">
                                         Try Pro For Free
